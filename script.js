@@ -14,6 +14,7 @@ window.addEventListener("load", function () {
     });
 });
 
+
 // Add event listener to the "Add" button
 // L'événement "click" est ajouté à un bouton avec l'ID "addButton". Cela signifie que lorsque le bouton est cliqué, la fonction associée sera exécutée.
 // La fonction associée à l'événement "click" commence par récupérer le texte de la tâche à partir d'un élément d'entrée avec l'ID "taskInput". La valeur est ensuite nettoyée en supprimant les espaces vides au début et à la fin.

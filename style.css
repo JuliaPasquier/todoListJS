@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
 * {
   margin: 0;
   padding: 0;
@@ -6,7 +9,7 @@
 
 body {
   background: #0f7269;
-  background: linear-gradient(135deg, #0f7269, #404b4f);
+  background: linear-gradient(135deg, #667574, #4b5052);
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100vh;
@@ -48,6 +51,8 @@ h1 {
   font-weight: bold;
   margin-top: 30px;
   margin-bottom: auto;
+  cursor: pointer;
+
 }
 
 .list {
@@ -77,4 +82,13 @@ button {
 button.delete-button{
     margin: auto;
     margin-bottom: 20px;
+    cursor: pointer;
 }
+.button {
+    transition: opacity 0.3s ease;
+  }
+  
+  .button:hover {
+    opacity: 0.8;
+  }
+  
